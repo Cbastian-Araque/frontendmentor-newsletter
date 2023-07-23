@@ -1,0 +1,62 @@
+@import 'fonts';
+@import 'querys';
+@import 'colors';
+@import 'form';
+@import 'modal';
+
+
+html {
+  font-size: 62.5%;
+
+  *, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 1rem;
+    background-color: $Charcoal_Grey;
+    position: relative;
+
+    p, a, ul{
+      font-size: 1.6rem;
+      font-family: txt_regular;
+    }
+
+    .root{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      @media #{$movil}{
+        height: max-content;
+      }
+    }
+  }
+
+  footer{
+    padding: 5rem 0;
+    background-color: $Tomato;
+    @media #{$movil}{
+      padding: 3.5rem 0;
+    }
+
+    .attribution {
+      text-align: center;
+      font-size: 1.6rem;
+      color: $White;
+      @media #{$movil}{
+        display: flex;
+        flex-direction: column;
+        gap: .4rem;
+      }
+
+      a {
+        color: $Dark_Slate_Grey;
+        font-family: txt_bold;
+      }
+    }
+  }
+}
+

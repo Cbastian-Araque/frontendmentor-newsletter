@@ -1,0 +1,13 @@
+$fonts: '../fonts/';
+
+@font-face {
+  font-family: txt_bold;
+  src: url('#{$fonts}Roboto-Bold.ttf') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: txt_regular;
+  src: url('#{$fonts}Roboto-Regular.ttf') format('woff');
+  font-weight: 400;
+}

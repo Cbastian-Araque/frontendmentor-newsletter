@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+
+  <main class="root" id="root">
+
+    <article class="cnt_letter">
+
+      <div class="inner_letter">
+
+        <section class="info">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul>
+            <li class="item_list">Product discovery and building what matters</li>
+            <li class="item_list">Measuring to ensure updates are a success</li>
+            <li class="item_list">And much more!</li>
+          </ul>
+
+          <form class="form">
+            <div class="group_input">
+              <label for="email">Email address <span class="span"></span></label>
+              <input type="email" name="email" id="email" placeholder="email@company.com">
+            </div>
+            <div class="group_input submit">
+              <input type="submit" value="Subscribe to monthly newsletter" class="submit" role="button">
+            </div>
+          </form>
+        </section>
+
+        <figure class="cnt_img">
+          <img src="./assets/images/illustration-sign-up-desktop.svg" alt="Ilustration desktop" class="img_desktop">
+          <img src="./assets/images/illustration-sign-up-mobile.svg" alt="Ilustration Movil" class="img_movil">
+        </figure>
+
+      </div>
+
+    </article>
+
+    <div class="modal">
+
+      <div class="inner_modal">
+
+        <div class="content_modal">
+          <img src="./assets/images/icon-success.svg" alt="Success!">
+
+          <h2>Thanks for subscribing!</h2>
+    
+          <p>A confirmation email has been sent to <b></b>. Please open it and click the button inside to confirm your subscription</p>
+    
+          <button type="button" role="button">Dismiss message</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
+      Coded by <a href="https://github.com/Cbastian-Araque" target="_blank">J. Sebastián Araque P.</a>
+    </p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
